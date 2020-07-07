@@ -1,0 +1,40 @@
+
+
+<?php 
+include_once 'header.php';
+?>
+
+    <main>
+        <!-- LOGIN SYSTEM FOR MAIN -->
+        <div class="wrapper-main">
+            <section class="section-default">
+                <?php
+                if (isset($_SESSION['userId'])) {
+                    echo '  <p>You are logged in!</p>';
+                } else {
+                    echo '  <p>You are logged out!</p>';
+                }
+                ?>
+            </section>
+        </div>
+    </main>
+    <!-- BANNER -->
+    <section class="index-banner">
+        <div class="vertical-center">
+            <h2>GET YOUR BOOK LIST<br>ORGANIZED</h2>
+            <h1>Have a problem making your to-buy book lists? use this site to list-up, organize, and manage your lists.</h1>
+        </div>
+    </section>
+
+    <!-- HOW TO SORT THE data
+    change by . the date(old-new)
+    change by title?
+    be able to search Username
+    search by genre, author, coupling, manga or novel
+    search by your tag -->
+
+
+    <!-- FOOTER -->
+    <?php
+    include 'footer.php';
+    ?>
