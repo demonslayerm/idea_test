@@ -1,6 +1,8 @@
 <?php
 // erased core/init.php cuz it is in the header.php 
 require_once 'header.php';
+require_once 'core/init.php';
+
 
 
 if(Session::exists('home')) {
@@ -31,6 +33,10 @@ if($user->isLoggedIn()) {
   echo '<p>you need to <a href="login.php">log in</a> or <a href="register.php">register</a><?p>';
 
 }
+?>
+
+</body>
+</html>
 
 
 
@@ -42,6 +48,7 @@ if($user->isLoggedIn()) {
 
 
 
+<?php
 
 // echo Config::get('mysql/host');
 //

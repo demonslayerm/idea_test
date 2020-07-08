@@ -109,3 +109,5 @@ if (Input::exists()) {
 
 <a href="resetpassword.php">Forgot your password? Reset it here</a>
 <!-- also maybe allow forgotten username  -->
+</body>
+</html>

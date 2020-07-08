@@ -66,3 +66,5 @@ if (Input::exists()) {
 </form>
 
 <a href="resetpassword.php">Forgot your password?</a>
+</body>
+</html>
